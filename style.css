@@ -517,10 +517,11 @@ summary::after {
 
 footer {
     height: fit-content;
+  
 }
 
 .first-footer {
-    display: flex;
+  display: flex;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1200px; 
@@ -529,7 +530,10 @@ footer {
     transform: translateY(-200px);
 }
 
-
+.foot{
+  display: flex;
+    justify-content: space-between;
+}
 
 .first-footer p {
   font-family:'inter', sans-serif;
@@ -748,15 +752,16 @@ margin-bottom: 0;
   transform: translateY(20vh);
  }
  .first-footer{
-  flex-direction: column;
+flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  margin-right: 6rem;
   padding: 0;
  }
 
  .MedixTrak-p{
   margin-bottom: 2rem;
+  margin-left: 0.5rem;
+
 
  }
  .second-footer{
@@ -764,5 +769,8 @@ margin-bottom: 0;
   align-items: center;
   margin-right: 6rem;
  }
-
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
 }
