@@ -679,17 +679,19 @@ display: none;
   .overall-card{
   height: 150vh;
   flex-direction: column;
-  margin-right: 5rem;
+ 
  }
  .overall-card :nth-child(3){
   transform: translateY(-60px);
  }
  .card{
   width: 10rem;
+  margin-right: 0;
+  margin-right: 2rem;
  }
  .card img{
   width: 340px;
-
+margin-top: 4rem;
  }
   .row-staff{
     height: fit-content;
