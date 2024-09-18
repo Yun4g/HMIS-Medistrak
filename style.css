@@ -60,6 +60,45 @@ nav .links2 :nth-child(2) {
   color: rgba(239, 66, 57, 1);
 }
 
+
+.menu-btn_burger{
+  width: 50px;
+  height: 6px;
+  background:black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before, 
+ .menu-btn_burger::after{
+  content: ' ';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+
+.menu-btn_burger::before{
+  transform: translateY(-16px);
+}
+
+
+.menu-btn_burger::after{
+  transform: translateY(16px);
+}
+ .menu-btn_burger.open {
+  background: transparent;
+}
+
+.menu-btn_burger.open ::before{
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn_burger.open ::after{
+  transform: rotate(-45deg) translate(35px, 35px);
+}
 .hero-section {
   padding-left: 30px;
   display: flex;
@@ -546,7 +585,7 @@ gap: 50px;
 }
 
 
-@media only screen and (max-width:465px) {
+@media only screen and (max-width:500px) {
  
 /* .toggle-menu  .links a, .links2 a{
   display: flex;
@@ -560,9 +599,10 @@ gap: 50px;
   .hero-section{
   height: fit-content;
   flex-direction: column;
-  justify-content: center;
   gap: 3rem;
-align-items: center;
+ align-items: start;
+ width: 100%;
+ padding: 0;
 }
 .hero-text{
   margin-top: 0;
@@ -572,19 +612,12 @@ align-items: center;
   font-size: 30px;
   line-height: 2.5rem;
 }
-.MedixTrak-text{
-  max-width: 365px;
-  text-align: center;
-  flex-wrap: wrap;
-  padding-right: 3rem;
-}
+
 .hero-img img{
 display: none;
 }
 .patient-text{
-  max-width: 365px;
-  text-align: center;
-  flex-wrap: wrap;
+ margin-left: 1rem;
   padding-right: 3rem;
 }
 .empowering img{
@@ -617,7 +650,13 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0
+  margin: 0;
+  height: fit-content;
+  overflow: scroll;
+  
+}
+.for-doctors :nth-child(2){
+
 }
   #for-Hospital{
   height: 100vh;
@@ -629,6 +668,9 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.first :nth-child(2){
+  margin-left: 1rem;
 }
   .overall-card{
   height: 150vh;
@@ -647,9 +689,9 @@ display: none;
 
  }
   .row-staff{
-  height: 160vh;
+    height: fit-content;
+    overflow: scroll;
 
- padding-bottom: 9rem;
  }
  .andmore{
   font-size: 38px;
@@ -679,8 +721,8 @@ display: none;
  }
 
  .accordion-content{
-  padding: 0;
-  width: 340px;
+  padding: 5px;
+  width: 100%;
  }
  .accordion-header h1{
  font-size: 18px;
@@ -695,7 +737,7 @@ margin-bottom: 0;
  }
 
  .start{
-  width:425px ;
+  width:100% ;
   padding: 0;
   display: flex;
   flex-direction: column;
