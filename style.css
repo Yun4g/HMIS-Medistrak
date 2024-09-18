@@ -475,6 +475,12 @@ summary::after {
 
   
 }
+.Redefining{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 .start-text p {
   font-size: 18px;
   font-weight: 400;
@@ -598,6 +604,9 @@ gap: 50px;
   nav{
   padding: 0;
 }
+.MedixTrak{
+  padding: none;
+}
 .links a, .links2 a{
   display: none;
 }
@@ -665,6 +674,9 @@ display: none;
   height: 100vh;
 
  
+ }
+ .for-Hospital{
+  margin-top: 13rem;
  }
 .first{
   display: flex;
@@ -751,6 +763,9 @@ margin-bottom: 0;
   justify-content: center;
   align-items: center;
  }
+ .andmore{
+  margin-top: 8rem;
+ }
   footer{
   transform: translateY(20vh);
  }
@@ -767,6 +782,7 @@ flex-direction: column;
 
 
  }
+
  .second-footer{
   flex-direction: column;
   align-items: center;
