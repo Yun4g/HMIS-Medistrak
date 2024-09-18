@@ -762,8 +762,10 @@ margin-top: 4rem;
     align-items: center;
     width: 300px;
     padding: 0;
+    width: 100%;
  }
  .start{
+  margin-top: 1rem;
   padding: 0;
  }
 
