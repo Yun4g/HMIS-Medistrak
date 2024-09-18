@@ -288,6 +288,7 @@ margin-top: 100px;
 }
 .brown{
   height: 120vh;
+  width: 100%;
 }
 .card1{
   width: 414.42px;
@@ -624,6 +625,7 @@ display: none;
  margin-left: 1rem;
   padding-right: 3rem;
 }
+
 .empowering img{
   width: 299px;
 }
@@ -659,9 +661,7 @@ display: none;
   overflow: scroll;
   
 }
-.for-doctors :nth-child(2){
 
-}
   #for-Hospital{
   height: 100vh;
 
@@ -685,7 +685,6 @@ display: none;
   transform: translateY(-60px);
  }
  .card{
-  margin: 0;
   width: 10rem;
  }
  .card img{
@@ -704,6 +703,9 @@ display: none;
  .staff{
   flex-direction: column;
 
+ }
+ .brown{
+  width: 100%;
  }
   .accord{
   margin:0 ;
