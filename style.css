@@ -760,12 +760,11 @@ margin-top: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    padding: 0;
+    width: 380px;
+    padding: 30px ,0 0 0; 
     width: 100%;
  }
  .start{
-  margin-top: 1rem;
   padding: 0;
  }
 
