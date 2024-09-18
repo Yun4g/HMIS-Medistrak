@@ -62,7 +62,7 @@ nav .links2 :nth-child(2) {
 
 
 .menu-btn_burger{
-  width: 50px;
+  width: 30px;
   height: 6px;
   background:black;
   border-radius: 5px;
@@ -73,7 +73,7 @@ nav .links2 :nth-child(2) {
  .menu-btn_burger::after{
   content: ' ';
   position: absolute;
-  width: 50px;
+  width: 30px;
   height: 6px;
   background: black;
   border-radius: 5px;
