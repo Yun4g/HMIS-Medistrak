@@ -645,7 +645,7 @@ display: none;
     align-items: center;
     justify-content: center;
   margin: 0;
-  padding-right: 10px;
+ 
 }
   .for-Hospital{
   padding: 0;
@@ -723,6 +723,7 @@ margin-top: 4rem;
   .accord{
   margin:0 ;
  }
+ 
  .Frequently{
   font-size: 29px;
   margin-bottom: 2rem;
@@ -732,6 +733,9 @@ margin-top: 4rem;
   height: 100vh;
   padding-left: 30px;
 
+ }
+ .accordion{
+  max-width: 100%;
  }
  .accordion-header{
   width:420px ;
