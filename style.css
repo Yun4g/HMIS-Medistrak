@@ -718,7 +718,7 @@ margin-top: 4rem;
 
  }
  .brown{
-  width: 100%;
+  width: 400px;
  }
   .accord{
   margin:0 ;
@@ -755,8 +755,10 @@ margin-top: 4rem;
  padding: 20px;
  }
   .get-started{
-padding: 0;
-margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
  .start{
