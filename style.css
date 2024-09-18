@@ -1,0 +1,726 @@
+@font-face {
+  font-family: "grifter";
+  src: url("GRIFTER_Font_Family_(Fontmirror) (1)/GRIFTER Bold 700.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("inter (1) family/Inter-Bold.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'grifter', sans-serif !important;
+  font-weight: 700;
+}
+p{
+  font-family: 'inter', sans-serif !important;
+
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  padding: 24px 80px 24px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid rgba(244, 244, 244, 1);
+}
+
+nav .links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 16px;
+}
+
+nav .links2 :nth-child(1) {
+  margin-right: 1rem;
+}
+
+nav .links2 :nth-child(2) {
+  width: Hug (181px) px;
+  height: Hug (46px) px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 1000px;
+  opacity: 0px;
+  background: rgba(239, 66, 57, 0.1);
+  color: rgba(239, 66, 57, 1);
+}
+
+.hero-section {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hero-text {
+  margin-top: 2rem;
+}
+
+.Supercharge {
+  font-size: 56.72px;
+  font-weight: 700;
+  line-height: 68.06px;
+  text-align: left;
+}
+.row-redifine{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.MedixTrak {
+  width: 335px;
+  height: 57.02 px;
+  top: 331px;
+  left: 223px;
+  gap: 5.67px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(239, 66, 57, 0.1);
+  color: rgba(239, 66, 57, 1);
+  font-family: 'grifter', sans-serif;
+  padding: 0 8.51px;
+}
+
+.MedixTrak-text {
+  font-family:'inter' sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 36px;
+  margin-bottom: 41px;
+   color: rgb(135, 132, 132);
+
+}
+
+.hero-account {
+  display: flex;
+}
+.round-border{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 9px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Create {
+  width: Hug (181px) px;
+  height: Hug (54px) px;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  border-radius: 1000px;
+  opacity: 0px;
+  background: rgba(239, 66, 57, 1);
+  color: white;
+}
+
+.sign {
+  width: Hug (106px) px;
+  height: Hug (54px) px;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  border-radius: 1000px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.empowering {
+  margin-top: 2rem;
+  color: rgba(89, 89, 89, 1);
+}
+.empowering :nth-child(1){
+  margin-bottom: 16px;
+}
+.patient {
+  margin-left: 50px;
+  margin-top: 6rem;
+}
+
+.for-patient {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+}
+
+.patient-text {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.overall-card {
+  display: flex;
+  justify-content: space-evenly;
+  width:  281px ;
+  height: 404px ;
+  gap: 24px;
+  margin-right: 4rem;
+}
+
+.Frequently{
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+text-align: left;
+
+}
+.card{
+  margin-right: 50px;
+}
+.card-body {
+  width: 340px ;
+  height: 112px ;
+  gap: 18px;
+  opacity: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: rgba(19, 2, 2, 1);
+}
+
+.card-text {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.card-link {
+  width: 113px ;
+  height: 54px;
+  margin-bottom: 100px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 1000px;
+  opacity: 0px;
+  color: white;
+  background: rgba(239, 66, 57, 1);
+}
+
+.card-link-sign{
+  width: 113px ;
+  height: 54px;
+  margin-bottom: 150px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 1000px;
+  opacity: 0px;
+  color: white;
+  background: rgba(239, 66, 57, 1);
+}
+.for-Hospital {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.new-card {
+  display: flex;
+ gap: 17rem;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-right: 20rem;
+}
+.for-doctors{
+margin-top: 100px;
+
+
+}
+.brown{
+  height: 120vh;
+}
+.card1{
+  width: 414.42px;
+  height: 303.04px;
+  left: 432.42px;
+  gap: 0px;
+  border-radius: 15.91px ;
+  opacity: 0px;
+  background: rgba(246, 246, 246, 1);
+  padding: 31px;
+
+}
+.row-staff {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.andmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+}
+
+.staff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.fam {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.row-redifine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 10px; /* Set the gap to 0 or any smaller value */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.row-redifine .card {
+  border-radius: 15px;
+  width: 414.42px;
+  height: 303.04px;
+  padding: 20px;
+
+  background: white;
+}
+
+
+
+.accordion-header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1{
+    font-family:' Aeonik' sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 33.6px;
+text-align: left;
+
+  }
+  
+
+}
+
+
+
+
+.accord{
+  margin-top: 121px;
+  margin-left: 80px;
+}
+.accordion-item {
+  margin-bottom: 1rem;
+}
+
+.accordion-header {
+  cursor: pointer;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.accordion-content {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background-color: #fff;
+}
+
+.accordion-header h1 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+
+summary {
+  list-style: none; 
+  outline: none;    
+}
+
+summary::marker {
+  display: none; 
+}
+
+details[open] summary::after {
+  content:"-";   
+  font-weight: bold;
+  font-size: 20px;
+}
+
+summary::after {
+  content: "+";
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid;
+  transform: translateY(-10px);
+  text-align: center;
+}
+
+
+.get-started {
+  height: 80vh;
+  padding: 30px;
+  margin-bottom: 15rem;
+}
+.start {
+  width: Fixed (1, 279px) px;
+  height: 70vh;
+  top: 5998px;
+  left: 80px;
+  padding: 100px 364px 100px 364px;
+  gap: 40px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: rgba(249, 215, 215, 0.2);
+  text-align: center;
+}
+
+.start-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.start-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50.16px;
+  text-align: center;
+}
+.start-text .span {
+  background: rgba(239, 66, 57, 0.1);
+  color: rgba(239, 66, 57, 1);
+  width: fit-content;
+
+  
+}
+.start-text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 27px;
+
+  color: rgba(89, 89, 89, 1);
+  margin-bottom: 3rem;
+
+}
+
+.start-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-left: 1rem;
+}
+
+.start-link .gt-start {
+  width: 133px px;
+  height: 56px px;
+  padding: 16px 22px 16px 22px;
+  gap: 10px;
+  color: white;
+  border-radius: 32px;
+  opacity: 0px;
+  background: rgba(252, 75, 55, 1);
+}
+.start-link .signup {
+  width: Hug (184px) px;
+  height: Hug (56px) px;
+  padding: 16px 22px 16px 22px;
+  border-radius: 32px ;
+  border: 1px  solid;
+  opacity: 0px;
+  background: transparent;
+}
+
+
+
+footer {
+    height: fit-content;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    transform: translateY(-200px);
+}
+
+
+
+.first-footer p {
+  font-family:'inter', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 21.18px;
+  text-align: left;
+  color: rgb(172, 168, 168);
+
+  
+}
+
+.first-footer ul{
+  width: 126px;
+height: 159px;
+gap: 50px;
+
+
+}
+
+.first-footer ul li {
+    list-style: none; 
+    padding-left: 0;
+    margin-top: 21px;
+    color: rgb(148, 145, 145);
+
+}
+
+.first-footer h4 {
+  
+    margin-bottom: 15px; 
+}
+
+
+
+.first-footer li img {
+    max-width: 20px;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+
+.second-footer {
+    text-align: center; 
+    transform: translateY(-100px);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgba(139, 139, 139, 1);
+}
+
+
+@media only screen and (max-width:465px) {
+ 
+/* .toggle-menu  .links a, .links2 a{
+  display: flex;
+} */
+  nav{
+  padding: 0;
+}
+.links a, .links2 a{
+  display: none;
+}
+  .hero-section{
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+align-items: center;
+}
+.hero-text{
+  margin-top: 0;
+  margin-left: 25px;
+}
+.Supercharge{
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+.MedixTrak-text{
+  max-width: 365px;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+.hero-img img{
+display: none;
+}
+.patient-text{
+  max-width: 365px;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+.empowering img{
+  width: 299px;
+}
+
+  .patient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+  .for-Hospital{
+  padding: 0;
+  margin: 0;
+}
+  .new-card{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  gap: 0;
+}
+.for-doctors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0
+}
+  #for-Hospital{
+  height: 100vh;
+
+ 
+ }
+.first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .overall-card{
+  height: 150vh;
+  flex-direction: column;
+  margin-right: 5rem;
+ }
+ .overall-card :nth-child(3){
+  transform: translateY(-60px);
+ }
+ .card{
+  margin: 0;
+  width: 10rem;
+ }
+ .card img{
+  width: 340px;
+
+ }
+  .row-staff{
+  height: 160vh;
+
+ padding-bottom: 9rem;
+ }
+ .andmore{
+  font-size: 38px;
+  line-height: 34px;
+ }
+ .staff{
+  flex-direction: column;
+
+ }
+  .accord{
+  margin:0 ;
+ }
+ .Frequently{
+  font-size: 29px;
+  margin-bottom: 2rem;
+ }
+  .row-redifine{
+  overflow: scroll;
+  height: 100vh;
+  padding-left: 30px;
+
+ }
+ .accordion-header{
+  width:420px ;
+
+  padding: 0;
+ }
+
+ .accordion-content{
+  padding: 0;
+  width: 340px;
+ }
+ .accordion-header h1{
+ font-size: 18px;
+ }
+ .card1{
+ width: 358px;
+ padding: 20px;
+ }
+  .get-started{
+padding: 0;
+margin-bottom: 0;
+ }
+
+ .start{
+  width:425px ;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+  footer{
+  transform: translateY(20vh);
+ }
+ .first-footer{
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  margin-right: 6rem;
+  padding: 0;
+ }
+
+ .MedixTrak-p{
+  margin-bottom: 2rem;
+
+ }
+ .second-footer{
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6rem;
+ }
+
+}
