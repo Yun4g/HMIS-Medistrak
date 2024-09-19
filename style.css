@@ -118,9 +118,8 @@ nav .links2 :nth-child(2) {
   padding: 20px;
   transition: height 2s;
 
-
   .links a, .links2 a{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -130,6 +129,7 @@ nav .links2 :nth-child(2) {
  
    } 
     }
+
     .links a:hover{
       transform: scale(1.6);
    
