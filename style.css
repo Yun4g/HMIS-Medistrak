@@ -107,13 +107,17 @@ nav .links2 :nth-child(2) {
 }
 
 .toggle-menu {
+  position: absolute;
+  z-index: 1;
   display: none;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: hsla(0, 0%, 0%, 0.553);
   height: 0vh;
+  width: 100%;
   padding: 20px;
   transition: height 2s;
+
 
   .links a, .links2 a{
     display: flex;
@@ -136,6 +140,17 @@ nav .links2 :nth-child(2) {
  
    } 
     
+ .toggle-menu .links2 :nth-child(2) {
+  width:150px;
+  height: 46 px;
+  padding: 12px 12px 12px 12px;
+  transform: translateX(140px);
+  gap: 8px;
+  border-radius: 1000px;
+  opacity: 0px;
+  background: rgba(239, 66, 57, 1);
+  color: white;
+}
  
 .hero-section {
   padding-left: 30px;
