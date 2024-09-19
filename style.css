@@ -125,7 +125,7 @@ nav .links2 :nth-child(2) {
     justify-content: center;
     align-items: center;
    color: #fff;
-   margin-top: 2rem;
+   margin-top: 1rem;
  
  
    } 
@@ -144,7 +144,7 @@ nav .links2 :nth-child(2) {
   width:150px;
   height: 46 px;
   padding: 12px 12px 12px 12px;
-  transform: translateX(110px);
+  transform: translateX(100px);
   gap: 8px;
   border-radius: 1000px;
   opacity: 0px;
