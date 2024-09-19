@@ -20,6 +20,9 @@ console.log('hello world')
         menu.classList.add('open')
     }
     else{
+      toggle.style.height = '0vh'
+
+      menu.classList.remove('open')
         setTimeout(()=>{
          toggle.style.display = 'none';
        
@@ -31,9 +34,7 @@ console.log('hello world')
          })
        
         }, 100)
-         toggle.style.height = '0vh'
-
-        menu.classList.remove('open')
+       
     }
    
 
