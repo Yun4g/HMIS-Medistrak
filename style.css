@@ -144,7 +144,7 @@ nav .links2 :nth-child(2) {
   width:150px;
   height: 46 px;
   padding: 12px 12px 12px 12px;
-  transform: translateX(140px);
+  transform: translateX(110px);
   gap: 8px;
   border-radius: 1000px;
   opacity: 0px;
@@ -846,7 +846,7 @@ flex-direction: column;
  .second-footer{
   flex-direction: column;
   align-items: center;
-  margin-right: 6rem;
+
  }
 .foot{
   display: flex;
