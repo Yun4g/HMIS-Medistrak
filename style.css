@@ -958,7 +958,9 @@ margin: 0;
 
 @media only screen and (max-width:470px) {
  
-   
+  main{
+    padding: 0;
+  } 
 .menu-btn_burger{
   display: block;
 }
