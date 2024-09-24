@@ -1061,11 +1061,10 @@ margin: 0;
   transform: translateY(5px);
 }
 .card img{
-width: 350px;
+width: 450px;
 margin-top: 1rem;
 }
 .new-card{
-  transform: translateY(800px);
  flex-direction: column;
   margin: 0;
 }
