@@ -991,7 +991,7 @@ margin: 0;
     }
    
   .toggle-menu .links2 :nth-child(2) {
-    transform: translateX(120px);
+    transform: translateX(150px);
   }
   .hero-section{
     display: block;
