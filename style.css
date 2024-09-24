@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: "inter";
-  src: url("inter (1) family/Inter-Bold.otf");
+  src: url("inter (1) family\Inter-Light-BETA.otf");
+  font-weight: 400;
 }
 * {
   margin: 0;
@@ -15,10 +16,16 @@
   font-family: sans-serif;
 }
 
+main{
+ padding-left: 42px;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'grifter', sans-serif !important;
   font-weight: 700;
 }
+
+
 p{
   font-family: 'inter', sans-serif !important;
 
@@ -275,9 +282,7 @@ line-height: 57.6px;
 text-align: left;
 
 }
-.card{
-  margin-right: 50px;
-}
+
 .card-body {
   width: 340px ;
   height: 112px ;
@@ -289,6 +294,8 @@ text-align: left;
 
 .card-title {
   font-size: 24px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   font-weight: 700;
   line-height: 32.4px;
   text-align: left;
@@ -298,6 +305,8 @@ text-align: left;
 .card-text {
   color: rgba(89, 89, 89, 1);
   font-size: 16px;
+  font-weight: 400;
+  font-family: 'inter', sans-serif;
   margin-bottom: 40px;
 }
 
@@ -340,12 +349,14 @@ margin-top: 100px;
 
 }
 .brown{
-  height: 120vh;
+  position: absolute;
+  height: 150vh;
   width: 100%;
+ left: 0;
 }
 .card1{
   width: 414.42px;
-  height: 303.04px;
+  height: 333.04px;
   left: 432.42px;
   gap: 0px;
   border-radius: 15.91px ;
@@ -389,10 +400,10 @@ margin-top: 100px;
 .row-redifine {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  padding: 40px;
-  gap: 10px; /* Set the gap to 0 or any smaller value */
+  justify-content: center;
+padding-top:42px ;
+  gap: 18px; 
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -408,7 +419,9 @@ margin-top: 100px;
   background: white;
 }
 
-
+.accord{
+  margin: 121px 81px 81px 102px;
+}
 
 .accordion-header {
   margin: 0;
@@ -430,19 +443,13 @@ text-align: left;
 
 
 
-
-.accord{
-  margin-top: 121px;
-  margin-left: 80px;
-}
 .accordion-item {
   margin-bottom: 1rem;
 }
 
 .accordion-header {
   cursor: pointer;
-  padding: 1rem;
-  border-bottom: 1px solid #ddd;
+   padding-top:1rem ;
   border-radius: 5px;
 }
 
@@ -493,6 +500,7 @@ summary::after {
   height: 80vh;
   padding: 30px;
   margin-bottom: 15rem;
+  transform: translateY(500px);
 }
 .start {
   width: Fixed (1, 279px) px;
@@ -533,6 +541,20 @@ summary::after {
   align-items: center;
   justify-content: center;
   padding: 20px;
+
+
+  span{
+    color:  rgba(252, 75, 55, 1);
+  
+  }
+}
+
+.Redefining-h1{
+  margin-top: 86px;
+  color: #fff;
+  font-size: 48px;
+  width: 610px;
+  line-height: 50px;
 }
 .start-text p {
   font-size: 18px;
@@ -552,7 +574,9 @@ summary::after {
   gap: 10px;
   margin-left: 1rem;
 }
-
+.MedixTrak-p{
+ font-weight: 400;
+}
 .start-link .gt-start {
   width: 133px px;
   height: 56px px;
@@ -585,13 +609,13 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 0 20px; 
-    transform: translateY(-200px);
+    transform: translateY(300px);
+    margin-left: 2rem;
 }
 
 .foot{
   display: flex;
+  gap: 9rem;
     justify-content: space-between;
 }
 
@@ -638,18 +662,301 @@ gap: 50px;
 
 .second-footer {
     text-align: center; 
-    transform: translateY(-100px);
+    transform: translateY(400px);
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 60px;
     font-size: 17px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:  rgba(139, 139, 139, 1);
 }
+@media only screen and (min-width:500px)  and (max-width:768px) {
+ 
+  .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+   main{
+    padding: 0;
+   }
+  .menu-btn_burger{
+    display: block;
+  }
+  .toggle-menu{
+    height: 44vh !important;
+    transition: all 1s ease-in-out;
+  }
+ 
+.toggle-menu .links2 :nth-child(2) {
+  transform: translateX(200px);
+}
+    nav{
+   padding: 10px;
+  }
+  .MedixTrak{
+    padding: none;
+  }
+  .links a, .links2 a{
+    display: none;
+  }
+    .hero-section{
+    height: fit-content;
+    flex-direction: column;
+    gap: 4rem;
+   align-items: start;
+   width: 100%;
+   padding: 0;
+  }
+ 
+  .hero-text{
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  .Supercharge{
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+  .hero-img{
+    width: 100%;
+  
+  }
+  .hero-img img{
+   width: 100%;
+transform: translateY(-50px);
 
+  }
+  .patient-text{
+   margin-left: 1rem;
+    padding-right: 3rem;
+  }
+  
+  .empowering img{
+    width: 299px;
+  }
+  
+    .patient{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    margin: 0;
+   
+  }
+    .for-Hospital{
+    padding: 0;
+  
+  }
+    .new-card{
 
-@media only screen and (max-width:500px) {
+      height: 60vh;
+      width: 100%;
+    gap: 4px;
+      padding-left: 50px;
+  
+      justify-content: center;
+  }
+
+  .new-card .card{
+    margin: 0;
+
+  }
+  .for-doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: fit-content;
+   margin: 0;
+   
+    
+  }
+  
+    #for-Hospital{
+    height: 100vh;
+  
+   
+   }
+   .for-Hospital{
+    margin-top: 3rem;
+    margin-left: 0;
+   }
+  .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .first :nth-child(2){
+    margin-left: 1rem;
+  }
+    .overall-card{
+      position: relative;
+    height: 100vh;
+    width: 90vw;
+    gap: 1px !important;
+    flex-wrap: wrap;
+    margin-right: 0;
+    padding: 0;
+   
+   }
+   .overall-card :nth-child(3){
+    transform: translateY(0px);
+   }
+   .card{
+   margin-top: 2rem;
+    flex-wrap: wrap;
+
+    width: 14rem;
+  
+    margin-right: 0;
+     margin-right: 2rem; 
+   }
+
+   #Telehealth{
+    position: absolute;
+    top: 29rem;
+    left: 1rem; 
+   }
+   .card img{
+    width: 250px;
+  
+   }
+.card-title{
+  font-size: 12px;
+}
+   .card-text{
+    font-size: 14px;
+   }
+    .row-staff{
+      height: fit-content;
+      margin-top: 0;
+      
+  
+   }
+   .andmore{
+    font-size: 38px;
+    line-height: 34px;
+   }
+   .staff{
+  
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* transform: translateX(7rem); */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .staff img{
+    width: 15rem;
+   }
+ .brown{
+  height: 180vh;
+ }
+    .accord{
+transform:  translateY(1400px);
+margin: 0;
+   }
+   
+   .Frequently{
+    font-size: 29px;
+    margin-bottom: 2rem;
+   }
+    .row-redifine{
+    /* overflow: scroll; */
+
+    
+  
+   }
+
+    
+.card1{
+  width:272px ;
+  padding: 10px;
+  flex-wrap: wrap;
+ 
+
+  .card-title{
+    font-size: 18px;
+  }
+
+}
+   .accordion-item{
+    width: 100%;
+    
+   }
+   .accordion-header{
+    padding: 0;
+   }
+  
+   .accordion-content{
+    padding: 5px;
+    width: 100%;
+   }
+   .accordion-header h1{
+   font-size: 18px;
+   }
+
+   
+    .get-started{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+      padding :0; 
+      transform: translateY(200vh);
+       width: 100%;
+       height: 100vh; 
+   }
+   .start{
+    width: 100%;
+    padding:100px 0 0 0;
+   }
+  
+  
+   .andmore{
+    margin-top: 8rem;
+   }
+    footer{
+    transform: translateY(110vh);
+   }
+   .first-footer{
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 0;
+    
+   }
+  
+   .MedixTrak-p{
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  
+  
+   }
+  
+   .second-footer{
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+   height: 90px;
+   transform: translateY(40vh);
+ margin-top: 1rem;
+  
+   }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+  }
+  }
+  
+
+@media only screen and (max-width:470px) {
  
    
 .menu-btn_burger{

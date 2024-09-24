@@ -7,7 +7,7 @@ console.log('hello world')
         toggle.style.display = 'block';
        
         setTimeout(()=>{
-         toggle.style.height = '48vh';
+         toggle.style.height = '44vh';
        
         }, 10)
         setTimeout(()=>{
