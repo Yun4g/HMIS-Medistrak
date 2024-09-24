@@ -1019,7 +1019,7 @@ margin: 0;
 }
 
 .card-text{
-  font-size: 15px;
+  font-size: 22px;
 }
   .hero-img img{
     width: 516px;
@@ -1054,6 +1054,7 @@ margin: 0;
 }
 .card{
   padding: 20px;
+  margin-top: 1.5rem;
 }
 #Telehealth{
   transform: translateY(400px);
