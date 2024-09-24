@@ -1055,23 +1055,27 @@ margin: 0;
 .card{
   padding: 20px;
   margin-top: 1.5rem;
+  width: 490px;
 }
 #Telehealth{
-  transform: translateY(400px);
+  transform: translateY(5px);
 }
 .card img{
 width: 350px;
 margin-top: 1rem;
 }
 .new-card{
-  display: block;
-  gap: 3rem;
-
+  transform: translateY(800px);
+ flex-direction: column;
   margin: 0;
 }
 
+.new-card :nth-child(2){
+border: 3px solid red;
+}
+
   .for-Hospital{
-    transform: translateY(500px);
+    transform: translateY(1000px);
     margin-left: 0;
     width: 516px;
   }
