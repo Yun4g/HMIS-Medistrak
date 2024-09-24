@@ -964,6 +964,7 @@ margin: 0;
      padding:18px 5px; 
     
   }
+  
     .links{
       display: flex;
       flex-direction: column;
@@ -998,6 +999,7 @@ margin: 0;
     display: block;
     padding: 10px;
     margin: 0;
+    width: 516px;
   }
 
   .Supercharge{
