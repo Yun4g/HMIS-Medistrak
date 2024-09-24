@@ -958,7 +958,9 @@ margin: 0;
 
   @media only screen and (max-width:425px)  {
   
-    
+    body{
+      background-color: blue;
+    }
   nav{
     width: 100%;
     padding:18px 5px;
