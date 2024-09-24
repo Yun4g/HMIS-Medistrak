@@ -962,8 +962,8 @@ margin: 0;
       background-color: blue;
     }
   nav{
-    width: 425px;
-    padding:18px 5px;
+    width: 516px;
+     padding:18px 5px; 
     
   }
     .links{
@@ -989,6 +989,7 @@ margin: 0;
     }
     .toggle-menu{
       height: 44vh !important;
+      width: 517px;
       transition: all 1s ease-in-out;
     }
    
