@@ -1013,26 +1013,60 @@ margin: 0;
 }
 
 .card-text{
-  font-size: 20px;
+  font-size: 13px;
 }
   .hero-img img{
-    width: 425px;
+    width: 385px;
   }
-
+.for-doctors{
+  transform: translateY(250px);
+}
+  .row-staff{
+    transform: translateY(630px);
+  }
+.brown{
+  transform: translateY(800px);
+}
   .empowering img{
     width: 16px;
   }
   .patient{
-    margin-top: 1.9rem;
+  width: 420px;
+  flex-wrap: wrap;
+   margin-top: 1.9rem;
     margin-left: 0;
   }
+.overall-card{
+  width: 400px;
+  display: block;
+  /* overflow: hidden; */
+  
+}
+.card{
+  padding: 20px;
+}
+#Telehealth{
+  transform: translateY(400px);
+}
+.card img{
+width: 350px;
+margin-top: 1rem;
+}
+.new-card{
+  display: block;
+  gap: 3rem;
+
+  margin: 0;
+}
 
   .for-Hospital{
+    transform: translateY(500px);
     margin-left: 0;
   }
   .brown{
     height: fit-content;
     padding-bottom:1rem ;
+    transform:  translateY(1280px);
   }
   .andmore{
     margin: 0;
@@ -1040,7 +1074,7 @@ margin: 0;
   }
 
   .accord{
-    transform: translateY(2400px);
+    transform: translateY(3600px);
     margin: 0;
   }
   .staff{
@@ -1054,12 +1088,11 @@ margin: 0;
   .get-started {
     padding: 0;
     margin: 0;
-    transform: translateY(2500px);
+    transform: translateY(3650px);
   }
-#card1{
+.card1{
   overflow: hidden;
   flex-wrap: wrap;
-  border: 2px solid;
  
 }
 
@@ -1073,7 +1106,8 @@ margin: 0;
     justify-content: center;
   }
   footer{
-    transform: translateY(2000px);
+    transform: translateY(3150px);
+    margin-bottom: 1rem;
   }
 
   .first-footer{
@@ -1084,6 +1118,5 @@ margin: 0;
   .second-footer{
   display: none;
 
-  
    }
   }
