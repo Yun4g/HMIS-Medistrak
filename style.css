@@ -338,10 +338,10 @@ text-align: left;
 
 .new-card {
   display: flex;
- gap: 17rem;
+ gap: 23rem;
   justify-content: space-around;
   margin-top: 2rem;
-  margin-right: 20rem;
+  margin-right: 50rem;
 }
 .for-doctors{
 margin-top: 100px;
@@ -388,6 +388,9 @@ margin-top: 100px;
   gap: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+.radius img{
+  border-radius: 12px;
 }
 
 .fam {
